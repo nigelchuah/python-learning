@@ -51,9 +51,9 @@ def transpose(matrix):
     else:
         return []
 
-def get_factors(N):
+def get_factors(number):
     """Return a list of all factors of the given number."""
-    return [n for n in range(1, N+1)  if N%n == 0]
+    return [n for n in range(1, number+1)  if number%n == 0]
 
 def triples(N):
     """Return list of Pythagorean triples less than input num."""
