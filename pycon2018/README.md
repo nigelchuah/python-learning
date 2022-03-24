@@ -1,4 +1,4 @@
-Exercises from Trey Hunner's 'List Comprehension and Generator Expressions in Python' lesson.
+Exercises from Trey Hunner's 'List Comprehension and Generator Expressions in Python' lesson. /n
 YouTube link to the lesson: https://www.youtube.com/watch?v=_6U1XoxyyBY&t=11063s
 Link to the notes and exercises: https://pycon2018.trey.io/index.html
 
