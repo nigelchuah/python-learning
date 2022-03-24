@@ -43,15 +43,13 @@ def matrix_add(matrix1, matrix2):
 
 def transpose(matrix):
     """Return a transposed version of given list of lists."""
-    return [  
-        [row[i] for row in matrix]
-        for i in range(len(matrix))
-    ]
-
-    # return [[matrix[i][j] for i in range(len(matrix))] for j in range(len(matrix[0]))]
-
-# matrix = [['a','b','c'],['d','e','f'],['g','h','i']]
-# print(transpose(matrix))
+    if matrix:
+        return [  
+            [matrix[j][i] for j in range(len(matrix))]
+            for i in range(len(matrix[0]))
+        ]
+    else:
+        return []
 
 def get_factors(N):
     """Return a list of all factors of the given number."""
