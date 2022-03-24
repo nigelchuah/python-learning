@@ -64,10 +64,3 @@ def triples(N):
         for j in range(i,N)
         if math.sqrt(i**2 + j**2)%1 == 0 and math.sqrt(i**2 + j**2) < N
     ]
-    # trips = []
-    # for i in range(1,N):
-    #     for j in range(i,N):
-    #         if math.sqrt(i**2 + j**2)%1 == 0 and math.sqrt(i**2 + j**2) < N:
-    #             trips.append((i, j, int(math.sqrt(i**2 + j**2))))
-            
-    # return trips
